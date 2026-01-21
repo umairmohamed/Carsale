@@ -18,9 +18,9 @@ const Navbar = () => {
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center space-x-8">
             <Link to="/" className="text-gray-600 hover:text-blue-600 font-medium transition-colors">Home</Link>
-            <Link to="#" className="text-gray-600 hover:text-blue-600 font-medium transition-colors">Inventory</Link>
-            <Link to="#" className="text-gray-600 hover:text-blue-600 font-medium transition-colors">Services</Link>
-            <Link to="#" className="text-gray-600 hover:text-blue-600 font-medium transition-colors">About</Link>
+            <Link to="/" className="text-gray-600 hover:text-blue-600 font-medium transition-colors">Inventory</Link>
+            <Link to="/services" className="text-gray-600 hover:text-blue-600 font-medium transition-colors">Services</Link>
+            <Link to="/about" className="text-gray-600 hover:text-blue-600 font-medium transition-colors">About</Link>
           </div>
 
           {/* Right Actions */}

@@ -5,6 +5,7 @@ import { Navigation, Thumbs } from 'swiper/modules';
 import { ArrowLeft, Check, Calendar, Gauge, Fuel, Zap, ChevronRight, Phone, MessageSquare } from 'lucide-react';
 import { cars } from '../data/cars';
 import Navbar from '../components/Navbar';
+import Footer from '../components/Footer';
 
 // Import Swiper styles
 import 'swiper/css';
@@ -151,6 +152,7 @@ const CarDetails = () => {
           </div>
         </div>
       </main>
+      <Footer />
     </div>
   );
 };
